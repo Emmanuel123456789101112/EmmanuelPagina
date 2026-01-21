@@ -1,0 +1,23 @@
+ h1{
+    color: #7161EF;
+    text-align: center;
+ }
+ h3{
+color: #a4b381;
+ }
+ a:link{
+
+   color: #B7245C;
+      text-decoration: none ;
+ }
+ a:visited{
+   color: #B7245C;
+   text-decoration: none ;
+ }
+ a:hover{
+   color: #7161EF;
+   text-decoration: underline;
+ }
+ a:active{
+   color: #7161EF;
+ }
