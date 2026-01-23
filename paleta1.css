@@ -1,0 +1,63 @@
+ h1{
+    color: #7161EF;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ h3{
+color: #a4b381;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ a:link{
+
+   color: #B7245C;
+      text-decoration: none ;
+ }
+ a:visited{
+   color: #B7245C;
+   text-decoration: none ;
+ }
+ a:hover{
+   color: #7161EF;
+   text-decoration: underline;
+ }
+ a:active{
+   color: #7161EF;
+ }
+ p{
+  color: #a4b381;
+}
+/*
+ body{
+  background: black;    para cuando resolvamos el problema de que las cosas no se ven en color negro
+ }
+  */
+  body{
+    background-color: #cacaca;
+  }
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px ;    }
+    /*border-spacing: 5px;}*/
+td{
+  text-align: center;
+}
+table{
+  width: 100%;
+}
+caption{
+  color: #7161EF;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+}
+th{
+  color:#e3c6d1 ;
+  background-color: #3b3182;}
+  /*renglones pares*/
+tr:nth-child(even){
+background-color: rgb(176, 244, 221);
+}
+tr:nth-child(odd){
+background-color: #a4b381;
+}
