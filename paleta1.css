@@ -1,0 +1,81 @@
+ h1{
+    color: #7161EF;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ h3{
+color: #a4b381;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ a:link{
+
+   color: #B7245C;
+      text-decoration: none ;
+ }
+ a:visited{
+   color: #B7245C;
+   text-decoration: none ;
+ }
+ a:hover{
+   color: #ff0000;
+   text-decoration: none;
+ }
+ a:active{
+   color: #7161EF;
+ }
+ p{
+  color: #a4b381;
+}
+
+ body{
+  background: black;    
+ 
+ }
+  /*body{
+    background-color: #cacaca;
+  }*/
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px ;    }
+    /*border-spacing: 5px;}*/
+td{
+  text-align: center;
+}
+table{
+  width: 100%;
+}
+caption{
+  color: #7161EF;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+}
+th{
+  color:#e3c6d1 ;
+  background-color: #63a9ff;}
+  /*renglones pares*/
+tr:nth-child(even){
+background-color: rgb(176, 244, 221);
+}
+tr:nth-child(odd){
+background-color: #dbff87;
+}
+ul{
+  list-style-type: none;
+  background-color: #7161EF;
+  overflow: scroll;
+  margin: 0%;
+  padding: 0%;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color:#897de3 ;
+}
